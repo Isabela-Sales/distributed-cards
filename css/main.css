@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: Georgia, serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -8,3 +9,56 @@ html {
 }
 
 /* font-family: 'Denk One', sans-serif; */
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+main h1 {
+  font-family: 'Denk One', sans-serif;
+  color: #623b0c;
+  padding: 1rem;
+}
+
+main ol h2 {
+  font-family: 'Denk One', sans-serif;
+  color: #623b0c;
+  margin: 1.5rem;
+}
+main ol li {
+  list-style-type: none;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  border-color: #623b0c;
+  background-color: #ede3db;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: .5em .75em .6em;
+}
+main ol a {
+  text-decoration: none;
+  color: #f5f2f0;
+  background-color: #623b0c;
+  padding: .5em .75em .6em;
+  border-radius: 8px;
+}
+
+main ol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  margin: 0;
+}
+
+main ol p {
+  flex-grow: 1;
+}
